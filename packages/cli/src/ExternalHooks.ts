@@ -21,6 +21,7 @@ class ExternalHooksClass implements IExternalHooksClass {
 		await this.loadHooksFiles();
 
 		this.initDidRun = true;
+		const v1 = 'kjhdhn k';
 	}
 
 	async reload(externalHooks?: IExternalHooksFileData) {
